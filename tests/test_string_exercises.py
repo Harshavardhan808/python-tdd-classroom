@@ -50,3 +50,10 @@ class TestExercise(unittest.TestCase):
 
     def tearDown(self):
         pass   # If needed, do final unstubbing/unmocking here, like calling unittest.unstub()
+
+ob1 = TestExercise()
+ob1.setUp()
+ob1.test_is_english_vowel_when_vowel()
+ob1.test_is_english_vowel_when_not_vowel()
+ob1.test_find_longest_word()
+ob1.test_get_word_lengths()
